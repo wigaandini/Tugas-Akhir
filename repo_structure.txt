@@ -1,0 +1,477 @@
+REPOSITORY STRUCTURE REPORT
+Generated at : 2026-05-08 21:16:12
+Target dir   : /Users/erdiantiwigaputriandini/Documents/Kuliah/Tugas Akhir/04. TA/02. Code/Tugas-Akhir
+Special mode : summarize data/processed/windows/h0 ... h35
+
+Ignored dirs : .git node_modules vendor dist build .next .nuxt coverage .cache .idea .vscode __pycache__ .venv venv tmp logs
+Ignored files: *.log *.lock *.pyc *.class *.o *.so *.dll *.exe *.DS_Store
+
+==================================================
+DIRECTORY TREE
+==================================================
+.
+├── .gitignore
+├── README.md
+├── config.py
+├── data/
+│   └── processed/
+│       ├── metadata.csv
+│       └── windows/
+│           windows/
+│             ├── h0/ [summary: level1_dirs=10, level2_dirs=0, npz_files=2308, total_files=2308]
+│             ├── h1/ [summary: level1_dirs=10, level2_dirs=0, npz_files=2306, total_files=2306]
+│             ├── h2/ [summary: level1_dirs=10, level2_dirs=0, npz_files=2308, total_files=2308]
+│             ├── h3/ [summary: level1_dirs=10, level2_dirs=0, npz_files=2310, total_files=2310]
+│             ├── h4/ [summary: level1_dirs=10, level2_dirs=0, npz_files=2302, total_files=2302]
+│             ├── h5/ [summary: level1_dirs=10, level2_dirs=0, npz_files=2307, total_files=2307]
+│             ├── h6/ [summary: level1_dirs=3, level2_dirs=0, npz_files=693, total_files=693]
+│             ├── h7/ [summary: level1_dirs=3, level2_dirs=0, npz_files=692, total_files=692]
+│             ├── h8/ [summary: level1_dirs=3, level2_dirs=0, npz_files=692, total_files=692]
+│             ├── h9/ [summary: level1_dirs=3, level2_dirs=0, npz_files=692, total_files=692]
+│             ├── h10/ [summary: level1_dirs=3, level2_dirs=0, npz_files=692, total_files=692]
+│             ├── h11/ [summary: level1_dirs=3, level2_dirs=0, npz_files=693, total_files=693]
+│             ├── h12/ [summary: level1_dirs=3, level2_dirs=0, npz_files=693, total_files=693]
+│             ├── h13/ [summary: level1_dirs=3, level2_dirs=0, npz_files=692, total_files=692]
+│             ├── h14/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h15/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h16/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h17/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h18/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h19/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h20/ [summary: level1_dirs=1, level2_dirs=0, npz_files=230, total_files=230]
+│             ├── h21/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h22/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h23/ [summary: level1_dirs=1, level2_dirs=0, npz_files=230, total_files=230]
+│             ├── h24/ [summary: level1_dirs=1, level2_dirs=0, npz_files=230, total_files=230]
+│             ├── h25/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h26/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h27/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h28/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h29/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h30/ [summary: level1_dirs=1, level2_dirs=0, npz_files=230, total_files=230]
+│             ├── h31/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h32/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             ├── h33/ [summary: level1_dirs=1, level2_dirs=0, npz_files=230, total_files=230]
+│             ├── h34/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+│             └── h35/ [summary: level1_dirs=1, level2_dirs=0, npz_files=231, total_files=231]
+├── generate_repo_structure.sh
+├── invalid_trials.py
+├── notebooks/
+│   ├── 01_build_metadata.ipynb
+│   ├── 02_preprocess_and_window.ipynb
+│   ├── 03_verify_mps_setup.ipynb
+│   ├── 99_compare_results.ipynb
+│   ├── CNN1D_v1.ipynb
+│   ├── CNN1D_v2.ipynb
+│   ├── CNN1D_v3.ipynb
+│   ├── CNN1D_v4.ipynb
+│   ├── CNN1D_v5.ipynb
+│   ├── CNN1D_v6.ipynb
+│   ├── CNN1D_v7.ipynb
+│   ├── CNN1D_v8.ipynb
+│   ├── CNN1D_v9.ipynb
+│   ├── CNN_v1.ipynb
+│   ├── CNN_v2.ipynb
+│   ├── CNN_v3.ipynb
+│   ├── SCNN_v1.ipynb
+│   ├── SCNN_v2.ipynb
+│   ├── SCNN_v3.ipynb
+│   ├── SCNN_v4.ipynb
+│   ├── SCNN_v5.ipynb
+│   ├── SCNN_v6.ipynb
+│   ├── SCNN_v7.ipynb
+│   ├── SCNN_v8.ipynb
+│   ├── SVM_v1.ipynb
+│   ├── SVM_v2.ipynb
+│   ├── SVM_v3.ipynb
+│   ├── SVM_v4.ipynb
+│   ├── SVM_v5.ipynb
+│   ├── SVM_v6.ipynb
+│   ├── ablation_study.ipynb
+│   ├── backup/
+│   │   ├── CNN1D_v5.ipynb
+│   │   ├── CNN1D_v6.ipynb
+│   │   ├── CNN1D_v7.ipynb
+│   │   ├── CNN1D_v8.ipynb
+│   │   ├── CNN1D_v9.ipynb
+│   │   ├── CNN_v2.ipynb
+│   │   ├── CNN_v3.ipynb
+│   │   ├── SCNN_v7.ipynb
+│   │   ├── SCNN_v8.ipynb
+│   │   ├── SVM_v2.ipynb
+│   │   └── SVM_v3.ipynb
+│   ├── diagnostic_failed_trials.ipynb
+│   └── results/
+│       └── figures/
+│           ├── final_calibration_delta.png
+│           ├── final_comparison_bar.png
+│           ├── final_efficiency.png
+│           └── final_radar.png
+├── requirements.txt
+├── results/
+│   ├── figures/
+│   │   ├── 1dcnn_fatigue.png
+│   │   ├── 1dcnn_interday.png
+│   │   ├── 1dcnn_shift.png
+│   │   ├── 1dcnn_v2_fatigue.png
+│   │   ├── 1dcnn_v2_interday.png
+│   │   ├── 1dcnn_v2_shift.png
+│   │   ├── 1dcnn_v7_comparison.png
+│   │   ├── 1dcnn_v8_comparison.png
+│   │   ├── 1dcnn_v9.png
+│   │   ├── all_methods_shift_curve.png
+│   │   ├── all_methods_shift_v4.png
+│   │   ├── cnn1d_v3_fatigue.png
+│   │   ├── cnn1d_v3_interday_adapted.png
+│   │   ├── cnn1d_v3_shift_adapted.png
+│   │   ├── cnn1d_v3_summary.png
+│   │   ├── cnn_fatigue_curve.png
+│   │   ├── cnn_interday_curve.png
+│   │   ├── cnn_shift_curve.png
+│   │   ├── scnn_fatigue_curve.png
+│   │   ├── scnn_interday_curve.png
+│   │   ├── scnn_shift_curve.png
+│   │   ├── scnn_v2_fatigue_curve.png
+│   │   ├── scnn_v2_interday_curve.png
+│   │   ├── scnn_v2_shift_curve.png
+│   │   ├── scnn_v3_fatigue_curve.png
+│   │   ├── scnn_v3_interday_curve.png
+│   │   ├── scnn_v4_fatigue_curve.png
+│   │   ├── scnn_v4_interday_curve.png
+│   │   ├── svm_fatigue_curve.png
+│   │   ├── svm_interday_curve.png
+│   │   ├── svm_shift_curve.png
+│   │   ├── svm_v4_shift_curve.png
+│   │   ├── svm_v5_shift_curve.png
+│   │   ├── v4_s2.png
+│   │   ├── v4_s4.png
+│   │   ├── v5_shift_calibration.png
+│   │   ├── v6_s2_calibration.png
+│   │   └── v6_s4_interday.png
+│   └── models/
+│       ├── 1dcnn_s1.pt
+│       ├── 1dcnn_s2.pt
+│       ├── 1dcnn_s3.pt
+│       ├── 1dcnn_v2_s1.pt
+│       ├── 1dcnn_v2_s2.pt
+│       ├── 1dcnn_v2_s3.pt
+│       ├── 1dcnn_v4_base.pt
+│       ├── 1dcnn_v5.pt
+│       ├── 1dcnn_v6.pt
+│       ├── cnn1d_v3_fatigue.pt
+│       ├── cnn1d_v3_interday_base.pt
+│       ├── cnn1d_v3_interday_s1.pt
+│       ├── cnn1d_v3_interday_s2.pt
+│       ├── cnn1d_v3_interday_s3.pt
+│       ├── cnn1d_v3_interday_s4.pt
+│       ├── cnn1d_v3_interday_s5.pt
+│       ├── cnn1d_v3_interday_s6.pt
+│       ├── cnn1d_v3_interday_s7.pt
+│       ├── cnn1d_v3_interday_s8.pt
+│       ├── cnn1d_v3_interday_s9.pt
+│       ├── cnn1d_v3_shift_adapted.pt
+│       ├── cnn1d_v3_shift_base.pt
+│       ├── cnn_s1_ideal.pt
+│       ├── cnn_s2_shift.pt
+│       ├── cnn_s3_intersubject.pt
+│       ├── cnn_v2.pt
+│       ├── cnn_v3.pt
+│       ├── scnn_s1_ideal.pt
+│       ├── scnn_s2_shift.pt
+│       ├── scnn_s3_intersubject.pt
+│       ├── scnn_v2_s1_ideal.pt
+│       ├── scnn_v2_s2_shift.pt
+│       ├── scnn_v2_s3_intersubject.pt
+│       ├── scnn_v3_s1_ideal.pt
+│       ├── scnn_v3_s2_shift.pt
+│       ├── scnn_v3_s3_intersubject.pt
+│       ├── scnn_v4_s1_ideal.pt
+│       ├── scnn_v4_s2_shift.pt
+│       ├── scnn_v4_s3_intersubject.pt
+│       ├── scnn_v5_s2_calibration.pt
+│       ├── scnn_v6_base.pt
+│       ├── scnn_v7.pt
+│       ├── scnn_v8.pt
+│       ├── svm_s1_ideal.pkl
+│       ├── svm_s2_shift.pkl
+│       ├── svm_s3_intersubject.pkl
+│       ├── svm_v2.pkl
+│       ├── svm_v3.pkl
+│       ├── svm_v4.pkl
+│       └── svm_v5.pkl
+└── src/
+    ├── __init__.py
+    ├── data_splitter.py
+    ├── evaluation.py
+    ├── experiment_runner.py
+    ├── feature_extraction.py
+    ├── metadata_builder.py
+    └── preprocessing.py
+
+==================================================
+SPECIAL SUMMARY: data/processed/windows
+==================================================
+total_npz_files  : 24457
+total_files      : 24457
+
+- h0: npz_files=2308, total_files=2308
+  first_sample: data/processed/windows/h0/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h0/9/emg_p9_r2_varus.npz
+- h1: npz_files=2306, total_files=2306
+  first_sample: data/processed/windows/h1/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h1/9/emg_p9_r2_varus.npz
+- h2: npz_files=2308, total_files=2308
+  first_sample: data/processed/windows/h2/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h2/9/emg_p9_r2_varus.npz
+- h3: npz_files=2310, total_files=2310
+  first_sample: data/processed/windows/h3/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h3/9/emg_p9_r2_varus.npz
+- h4: npz_files=2302, total_files=2302
+  first_sample: data/processed/windows/h4/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h4/9/emg_p9_r2_varus.npz
+- h5: npz_files=2307, total_files=2307
+  first_sample: data/processed/windows/h5/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h5/9/emg_p9_r2_varus.npz
+- h6: npz_files=693, total_files=693
+  first_sample: data/processed/windows/h6/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h6/2/emg_p9_r2_varus.npz
+- h7: npz_files=692, total_files=692
+  first_sample: data/processed/windows/h7/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h7/2/emg_p9_r2_varus.npz
+- h8: npz_files=692, total_files=692
+  first_sample: data/processed/windows/h8/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h8/2/emg_p9_r2_varus.npz
+- h9: npz_files=692, total_files=692
+  first_sample: data/processed/windows/h9/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h9/2/emg_p9_r2_varus.npz
+- h10: npz_files=692, total_files=692
+  first_sample: data/processed/windows/h10/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h10/2/emg_p9_r2_varus.npz
+- h11: npz_files=693, total_files=693
+  first_sample: data/processed/windows/h11/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h11/2/emg_p9_r2_varus.npz
+- h12: npz_files=693, total_files=693
+  first_sample: data/processed/windows/h12/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h12/2/emg_p9_r2_varus.npz
+- h13: npz_files=692, total_files=692
+  first_sample: data/processed/windows/h13/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h13/2/emg_p9_r2_varus.npz
+- h14: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h14/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h14/0/emg_p9_r2_varus.npz
+- h15: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h15/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h15/0/emg_p9_r2_varus.npz
+- h16: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h16/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h16/0/emg_p9_r2_varus.npz
+- h17: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h17/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h17/0/emg_p9_r2_varus.npz
+- h18: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h18/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h18/0/emg_p9_r2_varus.npz
+- h19: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h19/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h19/0/emg_p9_r2_varus.npz
+- h20: npz_files=230, total_files=230
+  first_sample: data/processed/windows/h20/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h20/0/emg_p9_r2_varus.npz
+- h21: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h21/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h21/0/emg_p9_r2_varus.npz
+- h22: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h22/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h22/0/emg_p9_r2_varus.npz
+- h23: npz_files=230, total_files=230
+  first_sample: data/processed/windows/h23/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h23/0/emg_p9_r2_varus.npz
+- h24: npz_files=230, total_files=230
+  first_sample: data/processed/windows/h24/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h24/0/emg_p9_r2_varus.npz
+- h25: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h25/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h25/0/emg_p9_r2_varus.npz
+- h26: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h26/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h26/0/emg_p9_r2_varus.npz
+- h27: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h27/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h27/0/emg_p9_r2_varus.npz
+- h28: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h28/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h28/0/emg_p9_r2_varus.npz
+- h29: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h29/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h29/0/emg_p9_r2_varus.npz
+- h30: npz_files=230, total_files=230
+  first_sample: data/processed/windows/h30/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h30/0/emg_p9_r2_varus.npz
+- h31: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h31/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h31/0/emg_p9_r2_varus.npz
+- h32: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h32/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h32/0/emg_p9_r2_varus.npz
+- h33: npz_files=230, total_files=230
+  first_sample: data/processed/windows/h33/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h33/0/emg_p9_r2_varus.npz
+- h34: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h34/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h34/0/emg_p9_r2_varus.npz
+- h35: npz_files=231, total_files=231
+  first_sample: data/processed/windows/h35/0/emg_p0_r0_eversion.npz
+  last_sample : data/processed/windows/h35/0/emg_p9_r2_varus.npz
+
+==================================================
+FILE SUMMARY
+==================================================
+- .gitignore | lines:        3 | size: 19 bytes | type: ASCII text
+- README.md | lines:        0 | size: 13 bytes | type: ASCII text, with no line terminators
+- config.py | lines:      128 | size: 4239 bytes | type: Python script text executable, Unicode text, UTF-8 text
+- data/processed/metadata.csv | lines:    24487 | size: 7448944 bytes | type: CSV text
+- generate_repo_structure.sh | lines:      355 | size: 7986 bytes | type: Bourne-Again shell script text executable, Unicode text, UTF-8 text
+- invalid_trials.py | lines:       49 | size: 1407 bytes | type: Python script text executable, ASCII text
+- notebooks/01_build_metadata.ipynb | lines:      410 | size: 12490 bytes | type: JSON data
+- notebooks/02_preprocess_and_window.ipynb | lines:      360 | size: 137336 bytes | type: JSON data
+- notebooks/03_verify_mps_setup.ipynb | lines:      219 | size: 6100 bytes | type: JSON data
+- notebooks/99_compare_results.ipynb | lines:      618 | size: 327499 bytes | type: JSON data
+- notebooks/CNN1D_v1.ipynb | lines:     1454 | size: 301107 bytes | type: JSON data
+- notebooks/CNN1D_v2.ipynb | lines:     1359 | size: 293492 bytes | type: JSON data
+- notebooks/CNN1D_v3.ipynb | lines:     6170 | size: 287833 bytes | type: JSON data
+- notebooks/CNN1D_v4.ipynb | lines:      947 | size: 199034 bytes | type: JSON data
+- notebooks/CNN1D_v5.ipynb | lines:      565 | size: 83036 bytes | type: JSON data
+- notebooks/CNN1D_v6.ipynb | lines:      565 | size: 82853 bytes | type: JSON data
+- notebooks/CNN1D_v7.ipynb | lines:      654 | size: 84104 bytes | type: JSON data
+- notebooks/CNN1D_v8.ipynb | lines:      581 | size: 84255 bytes | type: JSON data
+- notebooks/CNN1D_v9.ipynb | lines:      590 | size: 84706 bytes | type: JSON data
+- notebooks/CNN_v1.ipynb | lines:     1304 | size: 258933 bytes | type: JSON data
+- notebooks/CNN_v2.ipynb | lines:      526 | size: 79771 bytes | type: JSON data
+- notebooks/CNN_v3.ipynb | lines:      591 | size: 81560 bytes | type: JSON data
+- notebooks/SCNN_v1.ipynb | lines:     1274 | size: 267410 bytes | type: JSON data
+- notebooks/SCNN_v2.ipynb | lines:     1297 | size: 272289 bytes | type: JSON data
+- notebooks/SCNN_v3.ipynb | lines:     1436 | size: 301398 bytes | type: JSON data
+- notebooks/SCNN_v4.ipynb | lines:     1620 | size: 331521 bytes | type: JSON data
+- notebooks/SCNN_v5.ipynb | lines:     1487 | size: 252739 bytes | type: JSON data
+- notebooks/SCNN_v6.ipynb | lines:      951 | size: 150498 bytes | type: JSON data
+- notebooks/SCNN_v7.ipynb | lines:      536 | size: 85887 bytes | type: JSON data
+- notebooks/SCNN_v8.ipynb | lines:      613 | size: 84395 bytes | type: JSON data
+- notebooks/SVM_v1.ipynb | lines:      907 | size: 244573 bytes | type: JSON data
+- notebooks/SVM_v2.ipynb | lines:      541 | size: 87120 bytes | type: JSON data
+- notebooks/SVM_v3.ipynb | lines:      555 | size: 93652 bytes | type: JSON data
+- notebooks/SVM_v4.ipynb | lines:      743 | size: 54727 bytes | type: JSON data
+- notebooks/SVM_v5.ipynb | lines:      769 | size: 56516 bytes | type: JSON data
+- notebooks/SVM_v6.ipynb | lines:      587 | size: 20028 bytes | type: JSON data
+- notebooks/ablation_study.ipynb | lines:      579 | size: 21497 bytes | type: JSON data
+- notebooks/backup/CNN1D_v5.ipynb | lines:      382 | size: 11676 bytes | type: JSON data
+- notebooks/backup/CNN1D_v6.ipynb | lines:      298 | size: 10450 bytes | type: JSON data
+- notebooks/backup/CNN1D_v7.ipynb | lines:      722 | size: 66578 bytes | type: JSON data
+- notebooks/backup/CNN1D_v8.ipynb | lines:      729 | size: 67779 bytes | type: JSON data
+- notebooks/backup/CNN1D_v9.ipynb | lines:      744 | size: 72974 bytes | type: JSON data
+- notebooks/backup/CNN_v2.ipynb | lines:      362 | size: 10389 bytes | type: JSON data
+- notebooks/backup/CNN_v3.ipynb | lines:      259 | size: 8602 bytes | type: JSON data
+- notebooks/backup/SCNN_v7.ipynb | lines:      402 | size: 12592 bytes | type: JSON data
+- notebooks/backup/SCNN_v8.ipynb | lines:      306 | size: 10736 bytes | type: JSON data
+- notebooks/backup/SVM_v2.ipynb | lines:      281 | size: 7684 bytes | type: JSON data
+- notebooks/backup/SVM_v3.ipynb | lines:      213 | size: 6939 bytes | type: JSON data
+- notebooks/diagnostic_failed_trials.ipynb | lines:      800 | size: 32106 bytes | type: JSON data
+- notebooks/results/figures/final_calibration_delta.png | lines:      137 | size: 41652 bytes | type: PNG image data, 1481 x 730, 8-bit/color RGBA, non-interlaced
+- notebooks/results/figures/final_comparison_bar.png | lines:      222 | size: 67060 bytes | type: PNG image data, 2381 x 880, 8-bit/color RGBA, non-interlaced
+- notebooks/results/figures/final_efficiency.png | lines:       86 | size: 46769 bytes | type: PNG image data, 1173 x 727, 8-bit/color RGBA, non-interlaced
+- notebooks/results/figures/final_radar.png | lines:      806 | size: 219837 bytes | type: PNG image data, 1175 x 983, 8-bit/color RGBA, non-interlaced
+- requirements.txt | lines:       32 | size: 1037 bytes | type: Unicode text, UTF-8 text
+- results/figures/1dcnn_fatigue.png | lines:      101 | size: 27574 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_interday.png | lines:       87 | size: 35045 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_shift.png | lines:      269 | size: 72603 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_v2_fatigue.png | lines:      111 | size: 27337 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_v2_interday.png | lines:       98 | size: 35979 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_v2_shift.png | lines:      281 | size: 70974 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_v7_comparison.png | lines:      196 | size: 53185 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_v8_comparison.png | lines:      165 | size: 53987 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/1dcnn_v9.png | lines:      101 | size: 56752 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/all_methods_shift_curve.png | lines:      181 | size: 68519 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/all_methods_shift_v4.png | lines:      309 | size: 89924 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn1d_v3_fatigue.png | lines:      136 | size: 28699 bytes | type: PNG image data, 1484 x 656, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn1d_v3_interday_adapted.png | lines:       85 | size: 33762 bytes | type: PNG image data, 1484 x 656, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn1d_v3_shift_adapted.png | lines:      112 | size: 31692 bytes | type: PNG image data, 1484 x 656, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn1d_v3_summary.png | lines:      145 | size: 39145 bytes | type: PNG image data, 1163 x 657, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn_fatigue_curve.png | lines:       97 | size: 27392 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn_interday_curve.png | lines:       85 | size: 34862 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/cnn_shift_curve.png | lines:      102 | size: 36790 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_fatigue_curve.png | lines:      105 | size: 28369 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_interday_curve.png | lines:      105 | size: 38634 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_shift_curve.png | lines:      107 | size: 36416 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v2_fatigue_curve.png | lines:      108 | size: 29003 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v2_interday_curve.png | lines:      122 | size: 38923 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v2_shift_curve.png | lines:       97 | size: 37817 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v3_fatigue_curve.png | lines:       84 | size: 29065 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v3_interday_curve.png | lines:       80 | size: 37660 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v4_fatigue_curve.png | lines:       86 | size: 29396 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/scnn_v4_interday_curve.png | lines:       88 | size: 40885 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/svm_fatigue_curve.png | lines:       89 | size: 27775 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/svm_interday_curve.png | lines:       87 | size: 34063 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/svm_shift_curve.png | lines:       96 | size: 36393 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/svm_v4_shift_curve.png | lines:       84 | size: 35473 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/svm_v5_shift_curve.png | lines:       89 | size: 35915 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/v4_s2.png | lines:      212 | size: 74896 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/v4_s4.png | lines:       86 | size: 43024 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/figures/v5_shift_calibration.png | lines:      261 | size: 73568 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/v6_s2_calibration.png | lines:      226 | size: 80085 bytes | type: PNG image data, 1500 x 750, 8-bit/color RGBA, non-interlaced
+- results/figures/v6_s4_interday.png | lines:      156 | size: 48740 bytes | type: PNG image data, 1200 x 600, 8-bit/color RGBA, non-interlaced
+- results/models/1dcnn_s1.pt | lines:      844 | size: 265513 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_s2.pt | lines:      880 | size: 265513 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_s3.pt | lines:      856 | size: 265513 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_v2_s1.pt | lines:      852 | size: 265627 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_v2_s2.pt | lines:      873 | size: 265627 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_v2_s3.pt | lines:      838 | size: 265627 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_v4_base.pt | lines:      884 | size: 265639 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_v5.pt | lines:      901 | size: 265449 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/1dcnn_v6.pt | lines:      874 | size: 265449 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_fatigue.pt | lines:     1204 | size: 381177 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_base.pt | lines:     1144 | size: 381565 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s1.pt | lines:     1118 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s2.pt | lines:     1133 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s3.pt | lines:     1139 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s4.pt | lines:     1136 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s5.pt | lines:     1179 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s6.pt | lines:     1146 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s7.pt | lines:     1169 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s8.pt | lines:     1156 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_interday_s9.pt | lines:     1157 | size: 381393 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_shift_adapted.pt | lines:     1257 | size: 381565 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn1d_v3_shift_base.pt | lines:     1235 | size: 381339 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn_s1_ideal.pt | lines:     1345 | size: 417843 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn_s2_shift.pt | lines:     1321 | size: 417843 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn_s3_intersubject.pt | lines:     1353 | size: 418060 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn_v2.pt | lines:     1355 | size: 416313 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/cnn_v3.pt | lines:     1297 | size: 416313 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_s1_ideal.pt | lines:      295 | size: 95140 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_s2_shift.pt | lines:      321 | size: 95140 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_s3_intersubject.pt | lines:      314 | size: 95399 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v2_s1_ideal.pt | lines:      290 | size: 95443 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v2_s2_shift.pt | lines:      308 | size: 95443 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v2_s3_intersubject.pt | lines:      290 | size: 95766 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v3_s1_ideal.pt | lines:      612 | size: 192659 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v3_s2_shift.pt | lines:      615 | size: 192659 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v3_s3_intersubject.pt | lines:      587 | size: 192982 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v4_s1_ideal.pt | lines:      584 | size: 193893 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v4_s2_shift.pt | lines:      656 | size: 193893 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v4_s3_intersubject.pt | lines:      619 | size: 194237 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v5_s2_calibration.pt | lines:      634 | size: 194197 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v6_base.pt | lines:      630 | size: 193861 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v7.pt | lines:      665 | size: 193149 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/scnn_v8.pt | lines:      602 | size: 193149 bytes | type: Zip archive data, at least v0.0 to extract, compression method=store
+- results/models/svm_s1_ideal.pkl | lines:    52132 | size: 35951105 bytes | type: data
+- results/models/svm_s2_shift.pkl | lines:    30191 | size: 37490225 bytes | type: data
+- results/models/svm_s3_intersubject.pkl | lines:    48713 | size: 48802545 bytes | type: data
+- results/models/svm_v2.pkl | lines:    66954 | size: 49628289 bytes | type: data
+- results/models/svm_v3.pkl | lines:    83159 | size: 74028450 bytes | type: data
+- results/models/svm_v4.pkl | lines:   139458 | size: 116131857 bytes | type: data
+- results/models/svm_v5.pkl | lines:    74626 | size: 98036401 bytes | type: data
+- src/__init__.py | lines:        0 | size: 0 bytes | type: empty
+- src/data_splitter.py | lines:      204 | size: 7309 bytes | type: Python script text executable, Unicode text, UTF-8 text
+- src/evaluation.py | lines:       74 | size: 2413 bytes | type: Python script text executable, Unicode text, UTF-8 text
+- src/experiment_runner.py | lines:      207 | size: 8431 bytes | type: Python script text executable, Unicode text, UTF-8 text
+- src/feature_extraction.py | lines:       85 | size: 2528 bytes | type: Python script text executable, ASCII text
+- src/metadata_builder.py | lines:      255 | size: 9055 bytes | type: Python script text executable, Unicode text, UTF-8 text
+- src/preprocessing.py | lines:      270 | size: 8458 bytes | type: Python script text executable, Unicode text, UTF-8 text
