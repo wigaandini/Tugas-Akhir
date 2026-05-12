@@ -91,10 +91,9 @@ def load_and_norm(df, stats=None, verbose=False):
 # ============================================================
 # CALIBRATION SPLITS (Option A)
 # ============================================================
-def split_cal_test(df, cal_rep=0):
-    """Split df into calibration (rep=cal_rep) and test (remaining reps)."""
-    cal = df[df["repetition"] == cal_rep]
-    test = df[df["repetition"] != cal_rep]
+def split_cal_test(df, cal_reps=[0, 1]):
+    cal = df[df["repetition"].isin(cal_reps)]
+    test = df[~df["repetition"].isin(cal_reps)]
     return cal, test
 
 
